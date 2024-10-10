@@ -1,0 +1,415 @@
+* {
+  padding:0;
+  font-family:monospace;
+  line-height:3ch;
+  box-align:right;
+}
+
+body {
+  margin-left:20ch;
+  background-color:aliceblue;
+  color:darkslateblue;
+  font-family:monospace;
+  text-align:center;
+  line-height:1.5em;
+}
+
+.largeimg {
+  width:90%;
+}
+
+.smallimg {
+  width:30em;
+  border-radius:2ch;
+}
+
+button:hover{
+  background-color:mediumpurple;
+  box-shadow:1ch 1ch 0ch darkslateblue;
+}
+
+button:active{
+  background-color:palevioletred;
+  box-shadow:1ch 1ch 0ch mediumvioletred;
+}
+
+.bordersubscribe {
+  border-width:.8ex;
+  border-color:darkslateblue;
+  border-style:ridge;
+  padding:1em;
+  margin-left:5vw;
+  margin-right:5vw;
+  margin-bottom:1em;
+  border-radius:5ch;
+}
+
+.border {
+  border-width:.8ex;
+  border-color:darkslateblue;
+  border-style:ridge;
+  padding:1em;
+  margin:1em;
+  border-radius:5ch;
+}
+
+.border2 {
+  background-color:darkslateblue;
+  color:aliceblue;
+  padding:2em;
+  margin-left:10%;
+  margin-right:10%;
+  border-radius:5ch;
+}
+
+.border3{
+  background-color:darkslateblue;
+  color:aliceblue;
+  padding:1em;
+  margin:1em;
+  border-radius:5ch;
+}
+
+p {
+  margin:1em;
+  font-size:2ch;
+}
+
+h2 {
+  margin:1em;
+  font-size:3ch;
+}
+
+h1{
+  font-size:4ch;
+}
+
+input {
+  border-radius:1ch;
+  padding:1ch;
+}
+
+button {
+  background-color:darkslateblue;
+  color:aliceblue;
+  padding:1.5ch;
+  margin:1em;
+  border-radius:1ch;
+  border-width:0ex;
+  box-shadow:1ch 1ch 0ch mediumpurple;
+}
+
+a {
+  color:darkslateblue;
+}
+
+.a2 {
+  color:aliceblue;
+  font-size:1.7ch;
+}
+
+.flex{
+  display:flex;
+  margin-left:5vw;
+  margin-right:5vw;
+  margin-bottom:1em;
+}
+
+h3 {
+  text-align:left;
+}
+
+.ad {
+  height: 100%;
+  width: 10%;
+  background-color:darkslateblue;
+  position:fixed;
+  left:0ch;
+  top:0ch;
+  color:aliceblue;
+  text-align:center;
+  line-height:20ch;
+  font-size:1.7ch;
+}
+
+.bold {
+  font-weight:bold;
+  font-size:2.5ch;
+}
+
+img {
+  transition: 1s;
+  object-fit:cover;
+}
+
+.conta:hover img {
+  filter:none;
+  transition: 1s;
+  rotate:360deg;
+  scale:3;
+  cursor:vertical-text;
+}
+
+.conta:hover video {
+  filter:none;
+  transition: 1s;
+  rotate:360deg;
+  scale:3;
+  cursor:vertical-text;
+}
+
+.conta {
+  width:100%;
+  transition: .5s;
+  overflow:clip;
+}
+
+.spinner {
+  height:10ch;
+  width:10ch;
+  border:solid 1ch darkslateblue;
+  background-color:aliceblue;
+  border-radius:2em;
+  /* animation-name:spin;
+  animation-duration:1s;
+  animation-iteration-count:infinite;
+  animation-timing-function:linear; */
+  overflow:clip;
+}
+
+.spinner .ball {
+  width:40%;
+  height:100%;
+  background-color:mediumpurple;
+  margin-left:0%;
+  box-align:left;
+  animation-name:slide;
+  animation-duration:1s;
+  animation-iteration-count:infinite;
+  animation-timing-function:ease-in-out;
+  animation-direction:alternate;
+  border-radius:1ch;
+}
+
+
+@keyframes slide {
+  0% {
+    margin-right:60%;
+    rotate:360deg;
+    scale:1;
+  }
+  50% {
+    scale:1.5;
+  }
+  100% {
+    margin-left:60%;
+    rotate:0deg;
+    scale:1;
+  }
+}
+
+@keyframes spin {
+  0% {
+    rotate:0deg;
+    scale:1;
+    margin:0%;
+  }
+  50% {
+    scale:2;
+  }
+  100% {
+    rotate:360deg;
+    scale:1;
+    margin:2ch;
+  }
+}
+
+/*libyastyling*/
+
+.bodylibya {
+  background-color:floralwhite;
+  color:salmon;
+  font-family:monospace;
+  text-align:center;
+  line-height:1.5 em;
+}
+
+.buttonlibya:hover{
+  background-color:lightsalmon;
+  box-shadow:1ch 1ch 0ch salmon;
+}
+
+.buttonlibya:active{
+  background-color:salmon;
+  box-shadow:1ch 1ch 0ch lightsalmon;
+}
+
+.borderlibya {
+  border-width:.8ex;
+  border-color:salmon;
+  border-style:solid;
+  padding:1em;
+  margin:5em;
+  border-radius:5ch;
+}
+
+.border2libya {
+  background-color:salmon;
+  color:floralwhite;
+  padding:2em;
+  margin-left:10%;
+  margin-right:10%;
+  border-radius:5ch;
+}
+
+.buttonlibya {
+  background-color:salmon;
+  color:navajowhite;
+  padding:1.5ch;
+  margin:1em;
+  border-radius:1ch;
+  border-width:0ex;
+  box-shadow:1ch 1ch 0ch lightsalmon;
+}
+
+.alibya {
+  font-size:2ch;
+  color:salmon;
+}
+
+.alibya2 {
+  color:floralwhite;
+}
+
+.adlibya {
+  height: 100%;
+  width: 10%;
+  background-color:lightsalmon;
+  position:fixed;
+  left:0ch;
+  top:0ch;
+  color:floralwhite;
+  text-align:center;
+  line-height:20ch;
+  font-size:1.7ch;
+}
+
+.border3libya {
+  background-color:salmon;
+  padding:1em;
+  margin:1em;
+  border-radius:5ch;
+  color:floralwhite;
+}
+.a2libya{
+  color:floralwhite;
+}
+
+video {
+  width:50ch;
+  object-fit:cover;
+  margin:5ch;
+  border-radius:2ch;
+  transition:1s;
+}
+
+.vid {
+  position:absolute;
+}
+
+.visitlibya {
+  height:10ch;
+  width:10ch;
+  border-width:3ch;
+  animation-name:visitlibya;
+  animation-duration:2.5s;
+  animation-iteration-count:infinite;
+  animation-direction:linear;
+  animation-timing-function:ease-in-out;
+}
+
+
+@keyframes visitlibya {
+  0% {
+    rotate:90deg;
+    border-radius:0%;
+    border-right:solid 3ch salmon;
+    border-top:solid 3ch salmon;
+    border-bottom:solid 3ch salmon;
+    border-left:solid 3ch salmon;
+  }
+ 25% {
+    border-radius:50%;
+    border-bottom:solid 3ch lightsalmon;
+    border-left:none;
+    border-right:solid 3ch lightsalmon;
+    border-top:none;
+  }
+  50% {
+    border-radius:0%;
+    border-bottom:solid 3ch salmon;
+    border-left:solid 3ch salmon;
+    border-right:solid 3ch salmon;
+    border-top:solid 3ch salmon;
+  }
+  75% {
+    border-radius:50%;
+    border-right:solid 3ch lightsalmon;
+    border-top:solid 3ch lightsalmon;
+    border-left:none;
+    border-bottom:none;
+  }
+  100% {
+    border-radius:0;
+    border-bottom:solid 3ch salmon;
+    border-left:solid 3ch salmon;
+    border-right:solid 3ch salmon;
+    border-top:solid 3ch salmon;
+  }
+}
+.canlibya {
+  border-width:12.5px;
+  border-color:salmon;
+  border-style:solid;
+  /* padding:1em; */
+  margin-bottom:5em;
+  border-radius:5ch;
+}
+
+.sansserif {
+  background-color:floralwhite;
+  color:salmon;
+}
+.monospace {
+  background-color:navajowhite;
+  color:lightsalmon;
+}
+
+.buttonfloral {
+  background-color:floralwhite;
+  border-color:salmon;
+  border-width:.5ch;
+  color:salmon;
+  box-shadow:0 0 0 0;
+}
+
+.buttonnavajo {
+  background-color:navajowhite;
+  border-color:salmon;
+  border-width:.5ch;
+  color:salmon;
+  box-shadow:0 0 0 0;
+}
+.buttonfloral:hover {
+  color:lightsalmon;
+  background-color:floralwhite;
+  box-shadow:0 0 0 0;
+}
+.buttonnavajo:hover {
+  color:lightsalmon;
+  background-color:navajowhite;
+  box-shadow:0 0 0 0;
+}
+summary {
+  font-size:3ch;
+}

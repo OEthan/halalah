@@ -1,0 +1,129 @@
+<html>
+
+<head>
+  <title>Visit Libya!</title>
+  <link rel = "stylesheet" href = "libyastyle.css">
+  <link rel = "icon" href = "leptismagna">
+  <script src = "libyascript.js" defer></script>
+  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+</head>
+
+<body id = 'body'>
+  <div class = "ad" id = "ad">
+    <b><p class = "bold">Table of Contents</p></b>
+    <p><a href = "#" class = "a2">Visit Libya!</a></p>
+    <p><a href = "#Attractions" class = "a2">Popular Attractions</a></p>
+    <p><a href = "#FAQ" class = "a2">Frequently Asked Questions</a></p>
+    <p><a href = index.html class = "a2">See our sister website, Visit Algeria!</a></p>
+  </div>
+  <h1>Visit Libya!</h1>
+  <h2>Ethan</h2>
+  <br>
+  <div class = "border2" id = "description">
+    <p>Beautiful beaches, Roman ruins, rich history — what doesn't Libya have? With Libya just reopening to tourism, come soon while it still remains untouched. Experience the true culture in the most unlikely of places: right in the city center.</p>
+    <p>So why wait? Visit now, and start your Libya experience here.</p>
+  </div>
+  <br>
+  <p>Hi! Welcome to the official tourism website of Libya!</p>
+  <a href = "https://www.google.com/maps/@26.3390318,18.5411241,6.21z?entry=ttu" class = "alibya">
+    <p>See Libya in Google Maps!</p>
+  </a>
+  <br>
+  <center><img src = "sabratha" alt = "Roman Ruins of Sabratha, Libya" class = "largeimg"></center>
+  <center><img src = "qaraboli.jpg" alt = "Lighthouse of Qara Boli, Libya" class = "largeimg"></center>
+  <center><img src = "leptismagna" alt = "Roman Ruins of Leptis Magna, Libya" class = "largeimg"></center>
+  <h2 id = "Attractions">Attractions in Libya</h2>
+  <p>Sabratha</p>
+  <div class = "conta"><img src = "sabratha2" alt = "Roman Ruins at Sabratha, Libya" class = "smallimg"></div>
+  <br>
+  <p>Al Khoms</p>
+  <div class = "conta"><img src = "khoms.jpg" alt = "Beach in Al Khoms, Libya" class = "smallimg"></div>
+  <br>
+  <p>Leptis Magna</p>
+  <div class = "conta"><img src = "leptismagna" alt = "Roman Ruins at Leptis Magna, Libya" class = "smallimg"></div>
+  <br>
+  <p>Tripoli</p>
+  <div class = "conta"><img src = "tripoli.jpg" alt = "Tripoli, capital of Libya" class = "smallimg"></div>
+  <br>
+  <p>Vila Sileen</p>
+  <div class = "conta"><img src = "vilasileen.jpg" alt = "Vila Sileen, an ancient private house near Leptis Magna" class = "smallimg"></div>
+  <h1 id = "FAQ">Frequently Asked Questions</h1>
+  <div class = "flex">
+    <div class = "border3"  id = "faq">
+      <h2>Where is Libya?</h2>
+      <p>Libya is a country located in North Africa, bordering the Mediterranean Sea, Tunisia, Algeria, Niger, Chad, Sudan, and Egypt</p>
+      <p>Libya used to be an Italian colony until 1951</p>
+    </div>
+    <div class = "border3"  id = "faq1">
+      <h2>How can I get to Libya?</h2>
+      <p>First things first, you must apply for an <a href = "https://evisa.gov.ly" class = "a2">evisa</a>. You need a sponsor, such as a tour operator. Then, you can start thinking about reaching Libya.</p>
+      <p>Libya is easily reached by air, with its main airport at Tripoli (MJI) being served by flights to Rome, Cairo, Tunis, Sfax, and Istanbul</p>
+      <p>Visiting Libya by boat is only possible via the Kevalay Queen, from Istanbul to Tripoli</p>
+      <p>The only feasible entry by land is from Tunisia, at the Dehiba - Wazin crossing. The Ras Ajdir crossing is unstable. It is theoretically possible to enter Libya from Egypt at Sallum or Siwa, but since East Libya is under a different government, they will reject your evisa. All crossings with other countries are either closed or not open to foreigners, and they all are extremely unsafe.</p>
+    </div>
+  </div>
+  <div class = "border3"  id = "faq2">
+    <p>Note: Avoid visiting border / rural / city / suburban / coastal / desert / grassy / ancient / modern / medieval / southern / northern / western / eastern / central / former Italian / disputed / undisputed areas of Libya</p>
+  </div>
+  <div class = "border">
+    <div id = "box">
+      <h2>Subscribe to the official tourism magazine of Libya!</h2>
+      <p>e-mail:</p>
+      <input type = "text" id = "inp" class = "inp" placeholder = "e-mail">
+    </div>
+    <p id = "p">password:</p>
+    <div id = "pdiv">
+      <input type = "password" class = "inp" id = "pass" placeholder = "password">
+    </div>
+    <br>
+    <br>
+    <p id = "otherthing"></p>
+    <p id = "li"></p>
+    <button onclick = "pressSubscribe()" id = "subscribe">Sign in to your subscription of the Libyan tourism magazine!</button>
+    <br>
+    <button onclick = "askemail()">Add other email</button>
+  </div>
+  <p>Below: the Sun and the Moon</p>
+  <br>
+  <center><div class = "visitlibya"></div></center>
+  <br>
+  <br>
+  <p>Below: artist's rendering of the average street intersection in Tripoli, Libya: Drivers Beware! (Click animation to pause)</p>
+  <canvas id = "can" class = "can"></canvas>
+  <!-- <canvas id = "can2" class = "can"</canvas> -->
+  <br>
+  <button onclick = "loadfact()" class = "buttonfloral">Load Cat Facts<br>Because Libya has Cats Too!</button>
+  <div id = "factdisplay"></div>
+  <br>
+  <h1>Website Settings</h1>
+  <details>
+    <summary>Set Background Color</summary>
+    <button onclick = "floral()" class = "buttonfloral" id = 'buttona'>Floral White</button>
+    <br>
+    <button onclick = "navajo()" class = "buttonnavajo" id = 'buttonb'>Navajo White</button>
+    <br>
+    <button onclick = "highcontrast()" class = "buttonhighcontrast" id = 'buttonc'>High-contrast Mode</button>
+  </details>
+  <details>
+    <summary>Set Font Style</summary>
+    <button onclick = "monospace()" class = "monospacebutton">Monospace</button>
+    <br>
+    <button onclick = "serif()" class = "serifbutton">Serif</button>
+    <br>
+    <button onclick = "sansserif()" class = "sansserifbutton">Sans-serif</button>
+  </details>
+  <br>
+  <br>
+  <p>Note: this site does NOT use any cookies.</p>
+  <br>
+  <a href = "index.html" class = "alibya">Visit our other website: Algeria Tourism!</a>
+  <p ondblclick = "alert('aha! oy! A- ү тн аүүаиуы1 нүг өүгиб эху уйыэуж уаа1')" onmousewheel = "prompt('ޯޔ, ތޔ ހަލޔަ, ޗޮމޮ ނަ ޗިނ ދަލޔަ?')">© 2024 Ethan Productions</p>
+<!-- 
+  <div id = "display"></div>
+  <input type = "text" id = "newiteminput">
+  <button onclick = "add()">Add</button> -->
+  <!-- <embed src="moon6.swf" quality="high" bgcolor="#ffffff" width="100%" height="100%" name="moon6" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /> -->
+</body>
+
+
+</html>
